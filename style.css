@@ -251,4 +251,27 @@ body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        padding: 16px;
+    }
+    .nav {
+        gap: 5px;
+    }
+    .nav a {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+    .products, .cards, .products-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .products img, .products-card img {
+        width: 200px;
+        height: 200px;
+    }
+}
 
