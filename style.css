@@ -13,7 +13,7 @@ body {
 .header {
     background-color: rgb(255, 255, 255);
     padding: 0 16px;
-    height: 56px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +22,7 @@ body {
 .logo {
     cursor: pointer;
     color: rgb(118, 212, 212);
+    font-weight: bold;
 }
 .nav {
     display: flex;
@@ -34,8 +35,30 @@ body {
     padding: 10px;
     text-align: center;
     border-radius: 15px;
+    font-weight: bold;
 }
 .nav a:hover {
     background-color: rgba(118, 212, 212, 0.425);
 
+}
+
+.hero {
+    background: rgba(118, 212, 212, 0.726);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.hero a {
+    background-color: rgba(118, 212, 212, 0.425);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
 }
