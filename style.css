@@ -82,6 +82,10 @@ body {
     
 }
 
+.popular h1 {
+    color: rgb(118, 212, 212)
+}
+
 .products {
     display: flex;
     flex-direction: row;
@@ -113,4 +117,36 @@ body {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(118, 212, 212, 0.425);
+}
+
+.advantages h1 {
+    color: rgb(118, 212, 212)
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card2 {
+    width: 350px;
+    height: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(118, 212, 212, 0.425);
+    border-radius: 15px;
+}
+
+.card2 img {
+    width: 150px;
+    height: 150px;
 }
