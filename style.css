@@ -190,3 +190,26 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.catalog h1 {
+    color: rgb(118, 212, 212)
+}
+.products-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.products-card img {
+    width: 250px;
+    height: 250px;
+}
