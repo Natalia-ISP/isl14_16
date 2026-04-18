@@ -168,6 +168,24 @@ body {
     column-gap: 25px;
 }
 
+.footer-right a {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(255, 255, 255, 0.425);
+    border-radius: 15px;
+}
+
+.row a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
 .footer-c {
     display: flex;
     justify-content: center;
