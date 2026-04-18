@@ -213,3 +213,42 @@ body {
     width: 250px;
     height: 250px;
 }
+
+.about-main a {
+    color: rgb(118, 212, 212);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+
+.about-main a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(118, 212, 212, 0.425);
+}
+
+.about-shop h2{
+    text-align: center;
+    color: rgb(118, 212, 212);
+}
+.about-shop {
+    background: white;
+    padding: 60px 20px;
+    line-height: 40px;
+}
+
+.as h2 {
+    text-align: center;
+    color: rgb(118, 212, 212)
+}
+.as img {
+    width: 250px;
+    height: 250px;
+}
+.as {
+    text-align: center;
+}
+
+
